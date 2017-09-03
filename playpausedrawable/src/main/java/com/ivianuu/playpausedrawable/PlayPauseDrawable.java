@@ -18,9 +18,10 @@ import android.util.Property;
 import android.view.animation.DecelerateInterpolator;
 
 /**
- * @author Manuel Wrage (IVIanuu)
+ * Play pause drawable
  */
 public class PlayPauseDrawable extends Drawable {
+
     private static final long PLAY_PAUSE_ANIMATION_DURATION = 250;
 
     private static final Property<PlayPauseDrawable, Float> PROGRESS =
